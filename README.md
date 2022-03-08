@@ -75,7 +75,7 @@ The user may also list all blog posts using the `GET` HTTP method;
 
   * Using the `GET` HTTP method, allows the authenticated user to view a particular blog post by the provided _id_ param.
 
-  * The owner of the post may edit their post using the `PUT` HTTP method and the following JSON structure:
+  * The owner of the post may update their post using the `PUT` HTTP method and the following JSON structure:
   ```
   {
     "title": "New title",
